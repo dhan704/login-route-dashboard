@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerDiv span {
+  padding-right: 30px;
+}
+
+.registerDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  margin: 50px;
+}
+
+.registerDiv input {
+  margin-bottom: 10px;
+}
+
+.logoutDiv {
+  text-align: center;
+}
